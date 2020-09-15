@@ -1,12 +1,12 @@
 # (PART) Protocol Codebook {-}
 
-# Pre-Questionnaire {#pre_section}
+# Teen Self Report {#teen_section}
 
 ```{r, include=FALSE}
 
 #get names of all questions from this section and generate codebook item objects for each
 
-sectionQuestions <- unique(filter(dataDic, section == 'Pre-Questionnaire')$`Variable / Field Name`)
+sectionQuestions <- unique(filter(dataDic, section == 'Teen Self Report')$`Variable / Field Name`)
 
 sectionContent <- lapply(sectionQuestions, function(itemName) knit_expand(file = 'templates/itemTemplate.Rmd'))
 
