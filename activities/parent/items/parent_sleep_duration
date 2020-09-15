@@ -1,0 +1,63 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "parent_sleep_duration",
+    "ui": {
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
+    },
+    "question": "How much sleep did your teen get last night?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "1/2 hour or less",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "1 hour",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "1-2 hours",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "2-4 hours",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "4-6 hours",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "6-8 hours",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 7,
+                "schema:name": "8-12 hours",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 8,
+                "schema:name": "More than 12 hours",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 9,
+                "schema:name": "I don't know",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

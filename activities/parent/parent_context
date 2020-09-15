@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "parent": "https://raw.githubusercontent.com/ChildMindInstitute/ca-partners-content/master/activities/parent/items/",
+        "parent_sleep_duration": {
+            "@id": "parent:parent_sleep_duration",
+            "@type": "@id"
+        },
+        "parent_bedtime": {
+            "@id": "parent:parent_bedtime",
+            "@type": "@id"
+        },
+        "parent_activities_positive_mood": {
+            "@id": "parent:parent_activities_positive_mood",
+            "@type": "@id"
+        },
+        "parent_activities_positive_mood_other": {
+            "@id": "parent:parent_activities_positive_mood_other",
+            "@type": "@id"
+        },
+        "parent_activities_negative_mood": {
+            "@id": "parent:parent_activities_negative_mood",
+            "@type": "@id"
+        },
+        "parent_activities_negative_mood_other": {
+            "@id": "parent:parent_activities_negative_mood_other",
+            "@type": "@id"
+        },
+        "parent_day_activities": {
+            "@id": "parent:parent_day_activities",
+            "@type": "@id"
+        },
+        "parent_physical_activity": {
+            "@id": "parent:parent_physical_activity",
+            "@type": "@id"
+        },
+        "parent_physical_activity_duration": {
+            "@id": "parent:parent_physical_activity_duration",
+            "@type": "@id"
+        },
+        "parent_day_mood": {
+            "@id": "parent:parent_day_mood",
+            "@type": "@id"
+        },
+        "parent_day_feelings": {
+            "@id": "parent:parent_day_feelings",
+            "@type": "@id"
+        },
+        "parent_day_feelings_other": {
+            "@id": "parent:parent_day_feelings_other",
+            "@type": "@id"
+        }
+    }
+}

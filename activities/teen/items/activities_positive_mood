@@ -1,0 +1,55 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "activities_positive_mood",
+    "ui": {
+        "inputType": "slider"
+    },
+    "question": "What activities postively affected your mood today?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Scrolling through social media (Instagram/Snapchat/TikTok/Youtube/etc.)",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Chatting with friends (Texting",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Gaming",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Being with friends in person",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Being with family",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "Being outside/exercising",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 7,
+                "schema:name": "School online or in-person school",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 8,
+                "schema:name": "Other",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

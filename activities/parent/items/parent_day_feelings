@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "parent_day_feelings",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "I think they are doing ok�times are hard but they are managing well today.",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "My teen is doing/did something constructive today�I am hopeful.",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "I am not as worried about them today as I have been recently",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "I am more worried about them than I usually am today",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Other ",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "question": "How are you feeling about how your teen is doing today?"
+}

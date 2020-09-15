@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "parent_bedtime",
+    "ui": {
+        "inputType": "time"
+    },
+    "question": "What time did your teen go to bed last night?"
+}

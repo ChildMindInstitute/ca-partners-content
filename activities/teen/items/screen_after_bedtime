@@ -1,0 +1,53 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "screen_after_bedtime",
+    "ui": {
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
+    },
+    "question": "\r\n\r\n![new/nightPhone.png](https://raw.githubusercontent.com/ChildMindInstitute/ca-partners-content/master/images/new/nightPhone.png =150x150)\r\n\r\nHow much time was there between looking at a screen (cell phone, tv, computer, tablet, laptop) and going to sleep last night?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "0 hours (Turning a screen off was the last thing you did before falling asleep. Also includes falling asleep with the screen on.)",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "1/2 hour or less",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "1 hour",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "1-2 hours",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "2-4 hours",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "4-6 hours",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "6-8 hours",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

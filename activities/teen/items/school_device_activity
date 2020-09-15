@@ -1,0 +1,76 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "school_device_activity",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Checking Instagram",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Posting on Instagram",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Watching TikToks",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Making a TikTok",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Checking Snapchat",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "Posting on Snapchat ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 7,
+                "schema:name": "Facetiming",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 8,
+                "schema:name": "Texting",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 9,
+                "schema:name": "Playing a game",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 10,
+                "schema:name": "Online Shopping",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 11,
+                "schema:name": "Doing work from another class",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 12,
+                "schema:name": "Other",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "question": "If yes, what were you doing on your devices during class? (select all that apply) "
+}

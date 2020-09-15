@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "phone_location",
+    "ui": {
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
+    },
+    "headerImageSize": " =150x150)\r\n\r\n",
+    "question": "Where was your phone last night while you slept?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "On my bed",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "In my room",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "In my room but I couldn't reach it without getting out of bed",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "In my room but turned off",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Outside of my room",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

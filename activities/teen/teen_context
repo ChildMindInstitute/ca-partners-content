@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "teen": "https://raw.githubusercontent.com/ChildMindInstitute/ca-partners-content/master/activities/teen/items/",
+        "morning_bedtime": {
+            "@id": "teen:morning_bedtime",
+            "@type": "@id"
+        },
+        "morning_sleep_quality": {
+            "@id": "teen:morning_sleep_quality",
+            "@type": "@id"
+        },
+        "screen_after_bedtime": {
+            "@id": "teen:screen_after_bedtime",
+            "@type": "@id"
+        },
+        "socialmedia_fall_asleep": {
+            "@id": "teen:socialmedia_fall_asleep",
+            "@type": "@id"
+        },
+        "phone_location": {
+            "@id": "teen:phone_location",
+            "@type": "@id"
+        },
+        "school_device": {
+            "@id": "teen:school_device",
+            "@type": "@id"
+        },
+        "school_device_activity": {
+            "@id": "teen:school_device_activity",
+            "@type": "@id"
+        },
+        "school_device_activity_other": {
+            "@id": "teen:school_device_activity_other",
+            "@type": "@id"
+        },
+        "physical_activity": {
+            "@id": "teen:physical_activity",
+            "@type": "@id"
+        },
+        "internet_use_category": {
+            "@id": "teen:internet_use_category",
+            "@type": "@id"
+        },
+        "social_media_duration": {
+            "@id": "teen:social_media_duration",
+            "@type": "@id"
+        },
+        "social_media_connected": {
+            "@id": "teen:social_media_connected",
+            "@type": "@id"
+        },
+        "social_media_excited": {
+            "@id": "teen:social_media_excited",
+            "@type": "@id"
+        },
+        "video_games_duration": {
+            "@id": "teen:video_games_duration",
+            "@type": "@id"
+        },
+        "video_games_connected": {
+            "@id": "teen:video_games_connected",
+            "@type": "@id"
+        },
+        "video_games_excited": {
+            "@id": "teen:video_games_excited",
+            "@type": "@id"
+        },
+        "activities_positive_mood": {
+            "@id": "teen:activities_positive_mood",
+            "@type": "@id"
+        },
+        "activities_negative_mood": {
+            "@id": "teen:activities_negative_mood",
+            "@type": "@id"
+        }
+    }
+}

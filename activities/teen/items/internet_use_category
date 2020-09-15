@@ -1,0 +1,77 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "internet_use_category",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Chat rooms/Group chat",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Facetime/Video chat app",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Blogs/Vlogs/Youtube",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Music (Spotify/iTunes/etc.)",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "News",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "Direct messenger/texting",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 7,
+                "schema:name": "Gaming",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 8,
+                "schema:name": "Shopping",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 9,
+                "schema:name": "Social Networking (Snapchat/Instagram/TikTok/etc.)",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 10,
+                "schema:name": "Web browsing",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 11,
+                "schema:name": "Internet TV (Hulu/Amazon Prime/Netflix/etc.)",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 12,
+                "schema:name": "School/work",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "headerImageSize": " =150x150)\r\n\r\n",
+    "question": "What did you use the internet for today?"
+}

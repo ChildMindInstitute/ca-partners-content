@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "parent_activities_positive_mood_other",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "What \"Other\" activities positively affected your teen�s mood today? "
+}

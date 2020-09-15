@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/ca-partners-content/master/protocols/ca-partners/ca-partners_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "ca-partners_schema",
+    "skos:prefLabel": "CA Partners Applet",
+    "schema:description": "Daily questions about physical and mental health, NIMH content",
+    "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/ca-partners-content/master/protocols/ca-partners/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "teen",
+                "isAbout": "teen",
+                "isVis": true
+            },
+            {
+                "variableName": "parent",
+                "isAbout": "parent",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "teen",
+            "parent"
+        ],
+        "shuffle": false
+    }
+}

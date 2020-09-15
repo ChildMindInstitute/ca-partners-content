@@ -1,0 +1,92 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/ca-partners-content/master/activities/parent/parent_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "parent_schema",
+    "skos:prefLabel": "7-day Mindlogger Diary (Parents)",
+    "schema:description": "Daily questionnaire for parents",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "parent_sleep_duration",
+                "isAbout": "parent_sleep_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "parent_bedtime",
+                "isAbout": "parent_bedtime",
+                "isVis": true
+            },
+            {
+                "variableName": "parent_activities_positive_mood",
+                "isAbout": "parent_activities_positive_mood",
+                "isVis": true
+            },
+            {
+                "variableName": "parent_activities_positive_mood_other",
+                "isAbout": "parent_activities_positive_mood_other",
+                "isVis": "parent_activities_positive_mood.includes(8)"
+            },
+            {
+                "variableName": "parent_activities_negative_mood",
+                "isAbout": "parent_activities_negative_mood",
+                "isVis": true
+            },
+            {
+                "variableName": "parent_activities_negative_mood_other",
+                "isAbout": "parent_activities_negative_mood_other",
+                "isVis": "parent_activities_negative_mood.includes(8)"
+            },
+            {
+                "variableName": "parent_day_activities",
+                "isAbout": "parent_day_activities",
+                "isVis": true
+            },
+            {
+                "variableName": "parent_physical_activity",
+                "isAbout": "parent_physical_activity",
+                "isVis": true
+            },
+            {
+                "variableName": "parent_physical_activity_duration",
+                "isAbout": "parent_physical_activity_duration",
+                "isVis": "parent_physical_activity < 4"
+            },
+            {
+                "variableName": "parent_day_mood",
+                "isAbout": "parent_day_mood",
+                "isVis": true
+            },
+            {
+                "variableName": "parent_day_feelings",
+                "isAbout": "parent_day_feelings",
+                "isVis": true
+            },
+            {
+                "variableName": "parent_day_feelings_other",
+                "isAbout": "parent_day_feelings_other",
+                "isVis": "parent_day_feelings.includes(4)"
+            }
+        ],
+        "order": [
+            "parent_sleep_duration",
+            "parent_bedtime",
+            "parent_activities_positive_mood",
+            "parent_activities_positive_mood_other",
+            "parent_activities_negative_mood",
+            "parent_activities_negative_mood_other",
+            "parent_day_activities",
+            "parent_physical_activity",
+            "parent_physical_activity_duration",
+            "parent_day_mood",
+            "parent_day_feelings",
+            "parent_day_feelings_other"
+        ],
+        "shuffle": false
+    }
+}

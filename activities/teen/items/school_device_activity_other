@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "school_device_activity_other",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "What \"Other\" activity negatively affected your mood today?"
+}

@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "parent_day_feelings_other",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "What \"Other\" feelings did you want to express about how your teen is doing today?"
+}

@@ -1,0 +1,140 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/ca-partners-content/master/activities/teen/teen_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "teen_schema",
+    "skos:prefLabel": "7-day Mindlogger Diary (Teens)",
+    "schema:description": "Daily questionnaire for teens",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "morning_bedtime",
+                "isAbout": "morning_bedtime",
+                "isVis": true
+            },
+            {
+                "variableName": "morning_sleep_quality",
+                "isAbout": "morning_sleep_quality",
+                "isVis": true
+            },
+            {
+                "variableName": "screen_after_bedtime",
+                "isAbout": "screen_after_bedtime",
+                "isVis": true
+            },
+            {
+                "variableName": "socialmedia_fall_asleep",
+                "isAbout": "socialmedia_fall_asleep",
+                "isVis": true
+            },
+            {
+                "variableName": "phone_location",
+                "isAbout": "phone_location",
+                "isVis": true
+            },
+            {
+                "variableName": "school_device",
+                "isAbout": "school_device",
+                "isVis": true
+            },
+            {
+                "variableName": "school_device_activity",
+                "isAbout": "school_device_activity",
+                "isVis": "school_device == 2"
+            },
+            {
+                "variableName": "school_device_activity_other",
+                "isAbout": "school_device_activity_other",
+                "isVis": "school_device_activity.includes(12)"
+            },
+            {
+                "variableName": "physical_activity",
+                "isAbout": "physical_activity",
+                "isVis": true
+            },
+            {
+                "variableName": "internet_use_category",
+                "isAbout": "internet_use_category",
+                "isVis": true
+            },
+            {
+                "variableName": "social_media_duration",
+                "isAbout": "social_media_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "social_media_connected",
+                "isAbout": "social_media_connected",
+                "isVis": true
+            },
+            {
+                "variableName": "social_media_excited",
+                "isAbout": "social_media_excited",
+                "isVis": true
+            },
+            {
+                "variableName": "video_games_duration",
+                "isAbout": "video_games_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "video_games_connected",
+                "isAbout": "video_games_connected",
+                "isVis": true
+            },
+            {
+                "variableName": "video_games_excited",
+                "isAbout": "video_games_excited",
+                "isVis": true
+            },
+            {
+                "variableName": "activities_positive_mood",
+                "isAbout": "activities_positive_mood",
+                "isVis": true
+            },
+            {
+                "variableName": "school_device_activity_other",
+                "isAbout": "school_device_activity_other",
+                "isVis": "activities_positive_mood.includes(8)"
+            },
+            {
+                "variableName": "activities_negative_mood",
+                "isAbout": "activities_negative_mood",
+                "isVis": true
+            },
+            {
+                "variableName": "school_device_activity_other",
+                "isAbout": "school_device_activity_other",
+                "isVis": "activities_negative_mood.includes(8)"
+            }
+        ],
+        "order": [
+            "morning_bedtime",
+            "morning_sleep_quality",
+            "screen_after_bedtime",
+            "socialmedia_fall_asleep",
+            "phone_location",
+            "school_device",
+            "school_device_activity",
+            "school_device_activity_other",
+            "physical_activity",
+            "internet_use_category",
+            "social_media_duration",
+            "social_media_connected",
+            "social_media_excited",
+            "video_games_duration",
+            "video_games_connected",
+            "video_games_excited",
+            "activities_positive_mood",
+            "school_device_activity_other",
+            "activities_negative_mood",
+            "school_device_activity_other"
+        ],
+        "shuffle": false
+    }
+}

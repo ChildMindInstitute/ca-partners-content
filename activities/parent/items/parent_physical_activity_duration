@@ -1,0 +1,45 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "parent_physical_activity_duration",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": "How much physical activity did your teen get today?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "1/2 hour or less",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "1 hour",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "1-2 hours",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "2-4 hours",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "4-6 hours",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "6+ hours",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}
