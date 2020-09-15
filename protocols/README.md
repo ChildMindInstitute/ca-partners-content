@@ -1,0 +1,3 @@
+##California Partners MindLogger applet
+
+...add info about applet here...
