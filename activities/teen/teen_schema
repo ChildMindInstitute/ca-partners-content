@@ -85,12 +85,12 @@
             {
                 "variableName": "video_games_connected",
                 "isAbout": "video_games_connected",
-                "isVis": true
+                "isVis": "video_games_duration >= 1"
             },
             {
                 "variableName": "video_games_excited",
                 "isAbout": "video_games_excited",
-                "isVis": true
+                "isVis": "video_games_duration >= 1"
             },
             {
                 "variableName": "activities_positive_mood",
@@ -98,8 +98,8 @@
                 "isVis": true
             },
             {
-                "variableName": "school_device_activity_other",
-                "isAbout": "school_device_activity_other",
+                "variableName": "activities_positive_mood_other",
+                "isAbout": "activities_positive_mood_other",
                 "isVis": "activities_positive_mood.includes(8)"
             },
             {
@@ -108,8 +108,8 @@
                 "isVis": true
             },
             {
-                "variableName": "school_device_activity_other",
-                "isAbout": "school_device_activity_other",
+                "variableName": "activities_negative_mood_other",
+                "isAbout": "activities_negative_mood_other",
                 "isVis": "activities_negative_mood.includes(8)"
             }
         ],
@@ -131,9 +131,9 @@
             "video_games_connected",
             "video_games_excited",
             "activities_positive_mood",
-            "school_device_activity_other",
+            "activities_positive_mood_other",
             "activities_negative_mood",
-            "school_device_activity_other"
+            "activities_negative_mood_other"
         ],
         "shuffle": false
     }

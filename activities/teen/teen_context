@@ -70,8 +70,16 @@
             "@id": "teen:activities_positive_mood",
             "@type": "@id"
         },
+        "activities_positive_mood_other": {
+            "@id": "teen:activities_positive_mood_other",
+            "@type": "@id"
+        },
         "activities_negative_mood": {
             "@id": "teen:activities_negative_mood",
+            "@type": "@id"
+        },
+        "activities_negative_mood_other": {
+            "@id": "teen:activities_negative_mood_other",
             "@type": "@id"
         }
     }

@@ -5,10 +5,10 @@
     "@type": "reproschema:Field",
     "@id": "activities_positive_mood",
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio"
     },
-    "question": "What activities postively affected your mood today?",
     "responseOptions": {
+        "multipleChoice": true,
         "choices": [
             {
                 "schema:value": 1,
@@ -17,7 +17,7 @@
             },
             {
                 "schema:value": 2,
-                "schema:name": "Chatting with friends (Texting",
+                "schema:name": "Chatting with friends (Texting/DMing/Facetime)",
                 "@type": "schema:option"
             },
             {
@@ -51,5 +51,6 @@
                 "@type": "schema:option"
             }
         ]
-    }
+    },
+    "question": "What activities postively affected your mood today?"
 }

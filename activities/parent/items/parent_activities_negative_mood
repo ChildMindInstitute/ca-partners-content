@@ -17,7 +17,7 @@
             },
             {
                 "schema:value": 2,
-                "schema:name": "Chatting with friends (Texting",
+                "schema:name": "Chatting with friends (Texting/DMing/Facetime)",
                 "@type": "schema:option"
             },
             {

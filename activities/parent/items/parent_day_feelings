@@ -12,12 +12,12 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": "I think they are doing ok�times are hard but they are managing well today.",
+                "schema:name": "I think they are doing ok - times are hard but they are managing well today.",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": "My teen is doing/did something constructive today�I am hopeful.",
+                "schema:name": "My teen is doing/did something constructive today - I am hopeful.",
                 "@type": "schema:option"
             },
             {
@@ -31,7 +31,7 @@
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
+                "schema:value": 5,
                 "schema:name": "Other ",
                 "@type": "schema:option"
             }
